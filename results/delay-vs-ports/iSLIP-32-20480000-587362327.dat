@@ -1,0 +1,2 @@
+#Load Traffic-Mode Throughput  Mean-Delay      Max-Delay   Mean-Delay-HDR  Max-Delay-HDR Delay-STD-HDR  P90-Delay   P95-Delay   P99-Delay   
+0.95  0            1.0000      22.8016         764         22.8016         764           25.4953        53          72          122         
