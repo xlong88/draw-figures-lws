@@ -1,0 +1,80 @@
+{
+    "axis_order": [
+                    "uniform",
+                    "quasidiagonal",
+                    "logdiagonal",
+                    "diagonal"
+                  ],
+    "title": [
+        "Uniform",
+        "Quasi-diagonal",
+        "Log-diagonal",
+        "Diagonal"
+    ],
+    "algorithm_order": [
+          "C_Serenade_for_Proof",
+          "C_Serenade",
+          "O_Serenade_Proof",
+          "O_Serenade",
+          "Serena",
+          "iSLIP"
+               ],
+    "DisplayName": [
+          "SC-SERENADE",
+          "C-SERENADE",
+          "SO-SERENADE",
+          "O-SERENADE",
+          "SERENA",
+          "iSLIP"
+                  ],
+    "figureName": "serenade_like_burst_mean_delay_loglog",
+    "xlabel": "Normalized Load",
+    "ylabel": "Mean Delay",
+    "legend_latex": 0,
+    "LineWidth": 1,
+    "Marker": [1, 2, 3, 4, 5, 6],
+    "xtick": [
+      {
+        "value": [0, 0.2, 0.4, 0.6, 0.8, 1],
+        "label": ["0", "0.2", "0.4", "0.6", "0.8", "1"]
+      },
+      {
+        "value": [0, 0.2, 0.4, 0.6, 0.8, 1],
+        "label": ["0", "0.2", "0.4", "0.6", "0.8", "1"]        
+      },
+      {
+        "value": [0, 0.2, 0.4, 0.6, 0.8, 1],
+        "label": ["0", "0.2", "0.4", "0.6", "0.8", "1"]        
+      },
+      {
+        "value": [0, 0.2, 0.4, 0.6, 0.8, 1],
+        "label": ["0", "0.2", "0.4", "0.6", "0.8", "1"]        
+      }
+    ],
+    "Color": [1, 2, 3, 4, 5, 6],
+    "ylim": [
+      [0.01, 10000],
+      [0.01, 10000],
+      [0.01, 1000],
+      [0.01, 1010]
+    ],
+    "ytick": [
+      {
+        "value": [0.01, 0.1, 1, 10, 100, 1000, 10000],
+        "label": ["10^{-2}", "10^{-1}", "10^0", "10^{1}", "10^{2}", "10^{3}", "10^{4}"]
+      },
+      {
+        "value": [0.01, 0.1, 1, 10, 100, 1000, 10000],
+        "label": ["10^{-2}", "10^{-1}", "10^0", "10^{1}", "10^{2}", "10^{3}", "10^{4}"]     
+      },
+      {
+        "value": [0.01, 0.1, 1, 10, 100, 1000],
+        "label": ["10^{-2}", "10^{-1}", "10^0", "10^{1}", "10^{2}", "10^{3}"]
+      },
+      {
+        "value": [0.01, 0.1, 1, 10, 100, 1000],
+        "label": ["10^{-2}", "10^{-1}", "10^0", "10^{1}", "10^{2}", "10^{3}"]
+      }
+    ],
+    "plotType": "loglog"
+}

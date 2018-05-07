@@ -1,0 +1,77 @@
+{
+    "axis_order": [
+                    "uniform",
+                    "quasidiagonal",
+                    "logdiagonal",
+                    "diagonal"
+                  ],
+    "title": [
+        "Uniform",
+        "Quasi-diagonal",
+        "Log-diagonal",
+        "Diagonal"
+    ],
+    "algorithm_order": [
+          "C_Serenade_for_Proof",
+          "C_Serenade",
+          "O_Serenade_Proof",
+          "O_Serenade",
+          "Serena"
+               ],
+    "DisplayName": [
+          "SC-SERENADE",
+          "C-SERENADE",
+          "SO-SERENADE",
+          "O-SERENADE",
+          "SERENA"
+                  ],
+    "figureName": "serenade_like_burst_p95_delay_loglog",
+    "xlabel": "Normalized Load",
+    "ylabel": "95^{th} Percentile Delay",
+    "legend_latex": 0,
+    "LineWidth": 1,
+    "Marker": [1, 2, 3, 4, 5],
+    "xtick": [
+      {
+        "value": [0, 0.2, 0.4, 0.6, 0.8, 1],
+        "label": ["0", "0.2", "0.4", "0.6", "0.8", "1"]
+      },
+      {
+        "value": [0, 0.2, 0.4, 0.6, 0.8, 1],
+        "label": ["0", "0.2", "0.4", "0.6", "0.8", "1"]        
+      },
+      {
+        "value": [0, 0.2, 0.4, 0.6, 0.8, 1],
+        "label": ["0", "0.2", "0.4", "0.6", "0.8", "1"]        
+      },
+      {
+        "value": [0, 0.2, 0.4, 0.6, 0.8, 1],
+        "label": ["0", "0.2", "0.4", "0.6", "0.8", "1"]        
+      }
+    ],
+    "Color": [1, 2, 3, 4, 5],
+    "ylim": [
+      [900, 7000],
+      [300, 14300],
+      [0, 800],
+      [0, 2000]
+    ],
+    "ytick": [
+      {
+        "value": [1000, 2000, 3000, 4000, 5000, 6000, 7000],
+        "label": ["1000", "2000", "3000", "4000", "5000", "6000", "7000"]
+      },
+      {
+        "value": [300, 2300, 4300, 6300, 8300, 10300, 12300, 14300],
+        "label": ["300", "2300", "4300", "6300", "8300", "10300", "12300", "14300"]     
+      },
+      {
+        "value": [0, 100, 200, 300, 400, 500, 600, 700, 800],
+        "label": ["0", "100", "200", "300", "400", "500", "600", "700", "800"]
+      },
+      {
+        "value": [0, 400, 800, 1200, 1600, 2000],
+        "label": ["0", "400", "800", "1200", "1600", "2000"]
+      }
+    ]
+}
