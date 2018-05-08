@@ -1,16 +1,17 @@
 #!/bin/python
 # -*- coding: utf-8 -*-
 
+from sys import platform as _platform
+
 import os
 import os.path
 import pandas as pd
 import json
 
-
-
 # directory_rel = "./results/delay-vs-loads"
 # directory_rel = "./results/delay-vs-burst-size"
-directory_rel = "./results_copy/delay-vs-ports"
+# directory_rel = "./results_copy/delay-vs-ports"
+directory_rel = "./results/TON2018-new/moderate_loads_delay_vs_port/06-preprocessed"
 # metric = 'Mean-Delay'
 metric = 'Mean-Delay'
 throughput_thresh = 0.9999
@@ -29,6 +30,11 @@ xname = "Port_Number"
 ofn = metric + '_Serenades_md_vs_port.json'
 
 directory = os.path.abspath(directory_rel)
+
+if _platform.startswith('win'):
+    directory = directory.replace("\\", '/')
+
+print ("full directory : ", directory)
 
 traffic_models = ['uniform', 'logdiagonal', 'quasidiagonal', 'diagonal']
 data = {}
@@ -55,7 +61,7 @@ for f in fileLists_o:
         if not data[tm].has_key(alg):
             data[tm][alg] = [[], []]
         # assert (len(data[tm][alg]) == 0)
-        if (len(dff[metric]) > 0):
+        if len(dff[metric]) > 0:
             data[tm][alg][0].append(pn)
             data[tm][alg][1].append(dff[metric].iloc[0])
         # throughput = dff['Throughput'].values.tolist()
