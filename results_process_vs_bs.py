@@ -6,15 +6,13 @@ import os.path
 import pandas as pd
 import json
 
-
-
 # directory_rel = "./results_copy/delay-vs-loads"
 # directory_rel = "./results_copy/delay-vs-burst-size"
 directory_rel = "./results/TON2018-new/moderate_loads_delay_vs_burst/06-preprocessed"
 # directory_rel = "./results/delay-vs-ports"
 # metric = 'Mean-Delay'
 metric = 'Mean-Delay'
-throughput_thresh = 0.9999
+throughput_thresh = 0.999
 # xname = "Port_Number"
 # xname = "Delay"
 # xname = "#Load"

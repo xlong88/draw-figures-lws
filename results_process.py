@@ -7,7 +7,6 @@ import pandas as pd
 import json
 
 
-
 # directory_rel = "./results_copy/delay-vs-loads"
 directory_rel = "./results_copy/delay-vs-burst-size"
 # directory_rel = "./results/delay-vs-ports"
