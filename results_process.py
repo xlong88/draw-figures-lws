@@ -62,7 +62,7 @@ for f in fileLists:
             else:
                 break
         #
-        if (len(data[tm][alg][0]) == 0):
+        if len(data[tm][alg][0]) == 0:
             del data[tm][alg]
 
 with open(ofn, 'w') as jsonf:
