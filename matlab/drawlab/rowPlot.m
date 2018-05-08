@@ -81,7 +81,7 @@ if mod(length(varargin),2) ~= 0
 end
 
 % default setting
-W = 1730; % figure width
+W = 1440; % figure width (1730)
 H = 400; % figure height (590)
 
 M = [0.005 0.005 0.005 0.005]; % figure margin [left top right bottom]
